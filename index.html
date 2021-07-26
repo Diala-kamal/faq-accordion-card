@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ accordion card</title>
+    <!--========== BOOTSTRAP LINK ==========-->
+    <link
+      href="bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center">
+      <div class="box_body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="illustrations">
+              <div class="illustration_desltop">
+                <img
+                  src="images/illustration-woman-online-desktop.svg"
+                  alt="illustration woman "
+                />
+              </div>
+              <div class="illustration_mobile">
+                <img
+                  src="images/illustration-woman-online-mobile.svg"
+                  alt="illustration woman"
+                />
+              </div>
+
+              <div class="illustration_box_desltop">
+                <img src="images/illustration-box-desktop.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!--========== ACCORDION ==========-->
+          <div class="col-md-6">
+            <div class="accordion_sec">
+              <h1>FAQ</h1>
+              <div class="questions">
+                <button class="accordion">
+                  How many team members can I invite?
+                </button>
+                <div class="panel">
+                  <p>
+                    You can invite up to 2 additional users on the Free plan.
+                    There is no limit on team members for the Premium plan.
+                  </p>
+                </div>
+              </div>
+
+              <div class="questions">
+                <button class="accordion">
+                  What is the maximum file upload size?
+                </button>
+                <div class="panel">
+                  <p>
+                    No more than 2GB. All files in your account must fit your
+                    allotted storage space.
+                  </p>
+                </div>
+              </div>
+
+              <div class="questions">
+                <button class="accordion">How do I reset my password?</button>
+                <div class="panel">
+                  <p>
+                    Click “Forgot password” from the login page or “Change
+                    password” from your profile page. A reset link will be
+                    emailed to you.
+                  </p>
+                </div>
+              </div>
+
+              <div class="questions">
+                <button class="accordion">Can I cancel my subscription?</button>
+                <div class="panel">
+                  <p>
+                    Yes! Send us a message and we’ll process your request no
+                    questions asked.
+                  </p>
+                </div>
+              </div>
+
+              <div class="questions">
+                <button class="accordion">
+                  Do you provide additional support?
+                </button>
+                <div class="panel">
+                  <p>
+                    Chat and email support is available 24/7. Phone lines are
+                    open during normal business hours.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--========== SCRIPT ==========-->
+    <script src="script.js"></script>
+    <script
+      src="bootstrap/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
